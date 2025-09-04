@@ -1,0 +1,10 @@
+2. O problema de inserir (enfileirar) elementos em uma Fila envolve? Explique o que “precisa ser feito” para inserir um elemento e quais cuidados devem ser protegidos no algoritmo.
+
+
+3. O problema de retirar (desenfileirar) elementos em uma fila envolve? Explique o que “precisa ser feito” para retirar um elemento e quais cuidados devem ser protegidos no algoritmo.
+
+
+4. Qual critério é utilizado para saber se uma Fila está vazia?
+
+
+5. Qual critério é utilizado para saber se uma Fila está cheia? 

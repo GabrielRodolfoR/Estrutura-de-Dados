@@ -9,8 +9,8 @@ Atividades desenvolvidas na disciplina de **Estrutura de Dados**, abordando conc
 - [x] **Vetores**
     - Vetores Não Ordenados
     - Vetores Ordenados
-- [ ] **Pilhas**
-- [ ] **Filas**
+- [x] **Pilhas**
+- [x] **Filas**
 - [ ] **Listas Encadeadas**
     - Lista Encadeada Simples
     - Lista Encadeada Dupla
@@ -31,7 +31,7 @@ Atividades desenvolvidas na disciplina de **Estrutura de Dados**, abordando conc
 
 ## Autor
 
-Gabriel Rodolfo Rabello
-Curso: Engenharia de Software
-Instituição: Centro Universitário UniSATC
-Período: 2025/2
+Gabriel Rodolfo Rabello<br>
+Curso: Engenharia de Software<br>
+Instituição: Centro Universitário UniSATC<br>
+Período: 2025/2<br>

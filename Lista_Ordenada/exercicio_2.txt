@@ -1,0 +1,16 @@
+2. Considere um vetor ordenado com capacidade igual a 7 elementos contendo em seu interior a sequência “2, 3, 5, 7”. Responda:
+
+a. Após a inserção da sequência, qual o valor do atributo “ultima_posiçao”?
+3
+
+b. Se inserirmos o elemento cujo valor é igual a 4, quantas iterações serão necessárias para realocar os demais elementos do vetor?
+2
+
+c. Qual o novo valor do atributo “ultima_posiçao”?
+4
+
+d. Com base no algoritmo de pesquisa linear, quantas iterações serão necessárias para encontrar o índice do vetor que contém o valor 7?
+5
+
+e. Com base no algoritmo de pesquisa binária, quantas iterações serão necessárias para encontrar o índice do vetor que contém o valor 7?
+3
