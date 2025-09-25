@@ -93,3 +93,18 @@ class ListaEncadeadaDupla:
         while atual != None:
             atual.mostra_no()
             atual = atual.anterior
+    
+    def pesquisar(self, valor):
+        if self.primeiro == None:
+            print("Erro de Lista Vazia!")
+            return None
+        
+        atual = self.primeiro
+        
+        while atual.valor != valor:
+            if atual.proximo == None:
+                return None
+            else:
+                atual = atual.proximo
+            return atual
+            

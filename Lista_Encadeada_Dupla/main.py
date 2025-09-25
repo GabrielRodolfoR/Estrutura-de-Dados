@@ -13,12 +13,13 @@ class Main:
                 input(
                     "\n1 - Inserir Inicio"
                     "\n2 - Inserir Final"
-                    "\n3 - Mostrar Início"
-                    "\n4 - Mostrar Final"
-                    "\n5 - Excluir Início"
-                    "\n6 - Excluir Final"
-                    "\n7 - Excluir Qualquer"
-                    "\n8 - Sair"
+                    "\n3 - Pesquisar"
+                    "\n4 - Mostrar Início"
+                    "\n5 - Mostrar Final"
+                    "\n6 - Excluir Início"
+                    "\n7 - Excluir Final"
+                    "\n8 - Excluir Qualquer"
+                    "\n9 - Sair"
                     "\nEscolha: "
                 )
             )
@@ -32,29 +33,34 @@ class Main:
                 print("========== Inserir Final ==========")
                 valor = input("Valor a inserir: ")
                 self.lista.inserir_final(valor)
-
+            
             elif opcao == 3:
+                print("========== Pesquisar ==========")
+                valor = input("Valor a inserir: ")
+                self.lista.pesquisar(valor)
+
+            elif opcao == 4:
                 print("========== Mostrar Início ==========")
                 self.lista.mostrar_inicio()
 
-            elif opcao == 4:
+            elif opcao == 5:
                 print("========== Mostrar Final ==========")
                 self.lista.mostrar_final()
 
-            elif opcao == 5:
+            elif opcao == 6:
                 print("========== Excluir Início ==========")
                 self.lista.excluir_inicio()
 
-            elif opcao == 6:
+            elif opcao == 7:
                 print("========== Excluir Final ==========")
                 self.lista.excluir_final()
 
-            elif opcao == 7:
+            elif opcao == 8:
                 print("========== Excluir Qualquer ==========")
                 valor = input("Valor a inserir: ")
                 self.lista.excluir_qualquer(valor)
 
-            elif opcao == 8:
+            elif opcao == 9:
                 break
 
             else:
